@@ -26,12 +26,12 @@
   },
   "dependencies": {
     "camel-case": "^1.1.2",
-    "escodegen": "^1.6.1",
+    "escodegen": "~1.6.1",
     "escope": "~2.0.6",
     "esprima": "^2.0.0",
-    "esshorten": "git+https://github.com/jscrambler/esshorten.git",
-    "estraverse": "~1.9.0",
-    "esutils": "~1.1.6",
+    "estraverse": "~4.1.1",
+    "esutils": "~2.0.2",
+    "esshorten": "~1.1.0",
     "isarray": "0.0.1",
     "optionator": "^0.5.0",
     "source-map": "^0.4.1"
@@ -52,12 +52,7 @@
     "q": "^1.2.0",
     "xyz": "^0.5.0"
   },
-  "licenses": [
-    {
-      "type": "BSD",
-      "url": "http://github.com/estools/esmangle/raw/master/LICENSE.BSD"
-    }
-  ],
+  "license": "BSD-2-Clause",
   "scripts": {
     "test": "grunt travis",
     "lint": "grunt lint",
