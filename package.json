@@ -27,7 +27,7 @@
   "dependencies": {
     "camel-case": "^1.1.2",
     "escodegen": "~1.6.1",
-    "escope": "~2.0.6",
+    "escope": "git+https://github.com/jscrambler/escope.git#build",
     "esprima": "^2.0.0",
     "esshorten": "git+https://github.com/jscrambler/esshorten.git#all-fixes",
     "estraverse": "^4.2.0",
